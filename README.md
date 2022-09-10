@@ -1,9 +1,9 @@
 # EXERCÍCIO - AULA 10-09
 
 ## COMO BAIXAR O REPOSITÓRIO PARA O SEU PC 
-1 - Crie uma pasta com o nome exerciciorouter
-2 - Dentro da pasta, acesse o terminal e digite ```git clone https://github.com/coders4future/react-router-dom-exercicio.git ```
-3 - Após o termino do download, acesse a pasta e instale as dependencias com ```npm install```
+1. - Crie uma pasta com o nome exerciciorouter
+2. - Dentro da pasta, acesse o terminal e digite ```git clone https://github.com/coders4future/react-router-dom-exercicio.git ```
+3. - Após o termino do download, acesse a pasta e instale as dependencias com ```npm install```
 
 Pronto! Pode preparar o exercício
 
