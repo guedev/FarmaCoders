@@ -7,7 +7,7 @@
 
 Pronto! Pode preparar o exercício
 
-###1 - Criar um array com nomes:
+### 1 - Criar um array com nomes:
 
 ex - const nomes = ['galdanf', 'sauron', 'luke']
 
