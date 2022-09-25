@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-close {
+    border:none!important;
+    background: transparent;
+    width: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.close-image {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.txt-principal {
+    margin-top: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.add-image {
+    width: 15%;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+
+.add-image:hover, .close-image:hover{
+    opacity: 50%;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-cadastro label {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.form-cadastro input {
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 5px;
+    width: 400px;
+}
+
+
+.btn-modal {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #FFF;
+    background: #112063;
+    box-shadow: 0px 10px 40px -12px #2343d4;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn-modal:hover{
+    background-color: #0e2cb1;
+}
+
+
+.btn-cadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    margin: 35px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #FFF;
+    background: #112063;
+    box-shadow: 0px 10px 40px -12px #2343d4;
+    transition: 0.5;
+}
+
+.btn-cadastrar:hover {
+    background: #0926a8;
+}
+
+@media only screen and (max-width: 950px) {
+    .form-cadastro input {
+        width: 280px;
+    }
+
+    .btn-cadastrar {
+        width: 200px;
+    }
+
+    .add-image {
+        width: 35%;
+    }
+}
