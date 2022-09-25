@@ -39,26 +39,6 @@
     opacity: 50%;
 }
 
-.form-cadastro {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-}
-
-.form-cadastro label {
-    margin: 5px 0;
-    font-size: 16px;
-    color: #555;
-}
-
-.form-cadastro input {
-    border: 1px solid #aaa;
-    border-radius: 8px;
-    padding: 5px;
-    width: 400px;
-}
-
-
 .btn-modal {
     text-transform: uppercase;
     font-weight: 800;
@@ -103,10 +83,6 @@
 }
 
 @media only screen and (max-width: 950px) {
-    .form-cadastro input {
-        width: 280px;
-    }
-
     .btn-cadastrar {
         width: 200px;
     }

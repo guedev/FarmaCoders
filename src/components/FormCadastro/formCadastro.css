@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-cadastro label {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.form-cadastro input, .form-cadastro textarea {
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 5px;
+    width: 400px;
+}
+
+.form-cadastro textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form-cadastro input:focus, .form-cadastro textarea:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .form-cadastro input {
+        width: 280px;
+    }
+}

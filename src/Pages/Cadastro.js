@@ -4,6 +4,7 @@ import Modal from "react-modal";
 import { useState } from "react";
 import Add from "../images/addimage.png";
 import CloseIcon from "../images/close.png";
+import { FormCadastro } from "../components/FormCadastro/FormCadastro";
 
 Modal.setAppElement("#root");
 
@@ -52,20 +53,7 @@ export const Cadastro = () => {
         </button>
         <h2 className="txt-principal">Cadastrar Remédio</h2>
         <img className="add-image" alt="add imagem" src={Add}></img>
-
-        <form>
-          <div className="form-cadastro">
-            <label htmlFor="NomeRemedio">Nome Remédio:</label>
-            <input type="text" name="Nome" placeholder="Remédio"></input>
-            <label htmlFor="Farmacia">Farmácia:</label>
-            <input type="text" name="Farmacia" placeholder="Farmácia"></input>
-            <label htmlFor="Valor">Preço</label>
-            <input type="number" name="Valor" placeholder="Valor (R$)"></input>
-            <label htmlFor="Codigo">Código</label>
-            <input type="number" name="Codigo" placeholder="Código"></input>
-            
-          </div>
-        </form>
+        <FormCadastro />
         <button className="btn-cadastrar" type="submit">
               Cadastrar
             </button>
