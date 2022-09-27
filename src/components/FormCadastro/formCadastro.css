@@ -29,8 +29,21 @@
     outline: none;
 }
 
-@media only screen and (max-width: 950px) {
-    .form-cadastro input {
+@media only screen and (max-width: 800px) {
+    .form-cadastro input, .form-cadastro textarea {
         width: 280px;
+    }
+
+    .form-cadastro {
+        align-items: center;
+      
+    }
+}
+
+
+@media only screen and (max-width: 3500px) and (min-width: 1300px) {
+      
+    .form-cadastro input, .form-cadastro textarea {
+        width: 480px;
     }
 }

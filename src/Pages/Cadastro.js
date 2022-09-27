@@ -21,7 +21,6 @@ export const Cadastro = () => {
 
   const customStyles = {
     content: {
-      width: "90%",
       top: "50%",
       left: "50%",
       right: "auto",
@@ -32,9 +31,9 @@ export const Cadastro = () => {
       alignItems: "center",
       justifyContent: "center",
       flexDirection: "column",
-      borderRadius: "8px",
     },
   };
+
 
   return (
     <div className="container">
@@ -43,6 +42,7 @@ export const Cadastro = () => {
         isOpen={resetIsOpen}
         onRequestClose={handleIsCloseReset}
         style={customStyles}
+        className="modal"
       >
         <button className="btn-close" onClick={handleIsCloseReset}>
           <img

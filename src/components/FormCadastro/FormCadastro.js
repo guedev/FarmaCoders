@@ -1,4 +1,6 @@
+import React from 'react';
 import "./formCadastro.css";
+
 
 
 export const FormCadastro = () => {
@@ -8,8 +10,8 @@ export const FormCadastro = () => {
           <div className="form-cadastro">
             <label htmlFor="NomeRemedio">Nome Remédio:</label>
             <input type="text" name="Nome" placeholder="Remédio"></input>
-            <label htmlFor="url">Url (imagem)</label>
-            <input type="text" name="url" placeholder="Link"></input>
+            {/* <label htmlFor="url">Url (imagem)</label>
+            <input type="text" name="url" placeholder="Link"></input> */}
             <label htmlFor="Farmacia">Farmácia:</label>
             <input type="text" name="Farmacia" placeholder="Farmácia"></input>
             <label htmlFor="Valor">Preço</label>
