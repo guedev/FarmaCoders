@@ -21,7 +21,7 @@ export const Cadastro = () => {
 
   const customStyles = {
     content: {
-      width: "90%",
+      width: "95%",
       top: "50%",
       left: "50%",
       right: "auto",
